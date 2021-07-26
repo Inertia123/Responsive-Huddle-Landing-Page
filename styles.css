@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #674baf;
+}
+
+body section .container {
+  padding: 2.5rem;
+}
+
+body section .container header {
+  margin-bottom: 4rem;
+}
+
+body section .container header img {
+  height: 2.3rem;
+}
+
+body section .container .content .picture {
+  margin-bottom: 3rem;
+}
+
+body section .container .content .picture img {
+  max-width: 100%;
+}
+
+body section .container .content .text {
+  text-align: center;
+}
+
+body section .container .content .text h1 {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+body section .container .content .text p {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+body section .container .content .text button {
+  width: 70%;
+  font-size: 0.9rem;
+  padding: 0.6rem 0;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 2rem;
+  border: none;
+  color: #674baf;
+  font-weight: 400;
+  -webkit-box-shadow: 4px 4px 10px #494949;
+          box-shadow: 4px 4px 10px #494949;
+}
+
+body section .container .content .text button:hover {
+  background: #e882e8;
+  color: white;
+}
+
+body section .container footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 3rem;
+}
+
+body section .container footer .socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+  margin: 1rem;
+}
+
+body section .container footer .socials .soc {
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  -webkit-box-shadow: 0px 0px 0px 2px white;
+          box-shadow: 0px 0px 0px 2px white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body section .container footer .socials .soc:hover {
+  -webkit-box-shadow: 0px 0px 0px 2px #e882e8;
+          box-shadow: 0px 0px 0px 2px #e882e8;
+}
+
+body section .container footer .socials .soc a {
+  color: white;
+}
+
+body section .container footer .socials .soc a:hover {
+  color: #e882e8;
+}
+
+@media only screen and (min-width: 600px) {
+  body section .container {
+    padding: 2rem 4rem;
+  }
+  body section .container header img {
+    height: 3rem;
+  }
+  body section .container .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body section .container .content .picture {
+    width: 50%;
+    margin: 0;
+  }
+  body section .container .content .picture img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%;
+  }
+  body section .container .content .text {
+    width: 50%;
+    text-align: left;
+    padding: 3.5rem 10rem 5rem 3rem;
+  }
+  body section .container .content .text h1 {
+    font-size: 2rem;
+  }
+  body section .container .content .text button {
+    width: 30%;
+  }
+  body section .container footer {
+    margin: 0;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
